@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <meta charSet="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="icon" type="image/svg+xml" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{metadata.title}</title>
         <link rel="stylesheet" href="/assets/css/maicons.css" />
@@ -35,8 +35,6 @@ export default function RootLayout({ children }) {
           {children}
           <div className="back-to-top"/>
         </div>
-        
-        <script type="module" src="/src/main.jsx"></script>
         <script src="/assets/js/jquery-3.5.1.min.js"></script>
         <script src="/assets/js/bootstrap.bundle.min.js"></script>
         <script src="/assets/js/google-maps.js"></script>
