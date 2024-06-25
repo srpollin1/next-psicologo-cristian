@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../../assets/Navbar";
-import Footer from "../../assets/Footer";
+import Navbar2 from "../../assets/Navbar2";
+import Footer2 from "../../assets/Footer2";
 
 export default function Page() {
     return (
         <>
-            <Navbar />
+            <Navbar2 />
             <div className="back-to-top"></div>
             <div className="page-section pt-5">
                 <div className="container">
@@ -138,7 +138,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer2 />
         </>
     )
 }
