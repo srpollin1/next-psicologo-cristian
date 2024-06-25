@@ -2,7 +2,7 @@ import React from 'react';
 
 const SectionOne = () => {
   return (
-    <div className="page-section">
+    <div className="page-section" id='section-one'>
       <div className="container">
         <div className="row">
           <div className="col-md-5">

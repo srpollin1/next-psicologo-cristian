@@ -20,6 +20,8 @@
   --light: #F6F5FC;
 }
 
+
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
   #anuncio-1 img {

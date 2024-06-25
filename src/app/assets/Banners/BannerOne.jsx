@@ -2,6 +2,8 @@
 import React from 'react';
 
 const BannerOne = () => {
+  const numeroCelular = "56949586234";
+
   return (
     <div className="container">
       <div className="page-banner home-banner">
@@ -47,10 +49,8 @@ const BannerOne = () => {
                 {' '}que alguien me escuche
               </span>
             </h1>
-            <a
-              className="btn btn-primary btn-split"
-              href="https://wa.me/56981296528"
-            >
+
+            <a className="btn btn-primary btn-split" href={`https://wa.me/${numeroCelular}`}>
               Contactame
               <div className="fab">
                 <span className="mai-play" />

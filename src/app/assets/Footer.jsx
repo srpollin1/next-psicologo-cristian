@@ -37,13 +37,19 @@ const Footer = () => {
             <h5>Menu</h5>
             <ul className="footer-menu">
               <li>
-                <a href="#anuncio-1"> ¿Cómo funciona? </a>
+              <a className="nav-item btn-scroll" data-role="smoothscroll" href="#section-one">
+                ¿Cómo funciona?
+              </a>
               </li>
               <li className="nav-item">
-                <a href="#anuncio-1">Precios</a>
+              <a className="nav-item btn-scroll" data-role="smoothscroll" href="#anuncio-1">
+                Precios
+              </a>
               </li>
               <li className="nav-item">
-                <a href="#nuestro-blog"> Blog</a>
+              <a className="nav-item btn-scroll" data-role="smoothscroll" href="#nuestro-blog">
+                Blog
+              </a>
               </li>
               <li className="nav-item">
                 <a href={`https://wa.me/${numeroCelular}`}>

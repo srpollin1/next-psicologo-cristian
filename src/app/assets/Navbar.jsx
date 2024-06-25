@@ -23,17 +23,17 @@ const Navbar = () => {
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#anuncio-1">
+              <a className="nav-link btn-scroll" data-role="smoothscroll" href="#section-one">
                 ¿Cómo funciona?
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#anuncio-1">
+              <a className="nav-link btn-scroll" data-role="smoothscroll" href="#anuncio-1">
                 Precios
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nuestro-blog">
+              <a className="nav-link btn-scroll" data-role="smoothscroll" href="#nuestro-blog">
                 Blog
               </a>
             </li>
