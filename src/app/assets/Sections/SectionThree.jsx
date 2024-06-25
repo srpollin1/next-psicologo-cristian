@@ -9,7 +9,7 @@ const SectionThree = () => {
             alt=""
             src="https://doodleipsum.com/334x250?i=71b58d528ae31771a2ea8150fc47b7e9"
             style={{
-              left: '420px',
+              left: '235px',
               position: 'relative',
               top: '-32px',
               width: '334px'

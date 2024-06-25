@@ -2,6 +2,8 @@
 import React from 'react';
 
 const SectionTwo = () => {
+  const numeroCelular = "56949586234";
+
   return (
     <div className="page-section" id="about">
       <div className="container">
@@ -14,12 +16,9 @@ const SectionTwo = () => {
             <p>
               Contactame ahora y podré ayudarte.
             </p>
-            <a
-              className="btn btn-primary mt-3"
-              href="https://wa.me/56981296528"
-            >
-              Contactame
-            </a>
+            <a className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
+                Contactame
+              </a>
           </div>
           <div className="col-lg-6 py-3 wow fadeInRight">
             <div className="img-fluid py-3 text-center">
