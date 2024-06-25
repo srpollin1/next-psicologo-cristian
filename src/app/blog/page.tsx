@@ -8,6 +8,13 @@ export default function Blog() {
       <Navbar />
       <div className="page-section">
         <div className="container">
+          <nav aria-label="Breadcrumb">
+            <ul className="breadcrumb p-0 mb-0 bg-transparent">
+              <li className="breadcrumb-item"><a href="/">Home</a></li>
+              <li className="breadcrumb-item active">Blog</li>
+            </ul>
+          </nav>
+          <br />
           <div className="row">
             <div className="col-sm-10">
               <form action="#" className="form-search-blog">
