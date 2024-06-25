@@ -97,12 +97,12 @@ a:hover {
 
 /* Color systems */
 .bg-primary {
-  background-color: #6C55F9 !important;
+  background-color: #6B9080 !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #5d47eb !important;
+  background-color: #6B9080 !important;
 }
 
 .bg-accent {
@@ -282,7 +282,7 @@ a.text-dark:focus {
 
 
 .border-primary {
-  border-color: #6C55F9 !important;
+  border-color: #6B9080 !important;
 }
 
 .border-accent {
@@ -1916,7 +1916,7 @@ a.text-dark:focus {
 }
 
 .social-media-button a:hover {
-  background-color: #6C55F9;
+  background-color: #6B9080;
   color: #fff;
   text-decoration: none;
   transform: rotate(360deg);
