@@ -26,7 +26,7 @@ export default function Page() {
                                     <div className="meta-header">
                                         <div className="post-author">
                                             <div className="avatar">
-                                                <img src="/assets/img/Logotipo Oficial (1).png" alt="" />
+                                                <img src="/assets/img/logo.png" alt="" />
                                             </div>
                                             por <a href="#">Ps.Cristian Retamales</a>
                                         </div>

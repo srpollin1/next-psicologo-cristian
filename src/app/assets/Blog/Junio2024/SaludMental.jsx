@@ -24,7 +24,7 @@ const SaludMental = () => {
                 <div className="meta-header">
                   <div className="post-author">
                     <div className="avatar">
-                      <img src="../assets/img/Logotipo Oficial (1).png" alt="Ps.Cristian Retamales" />
+                      <img src="../assets/img/logo.png" alt="Ps.Cristian Retamales" />
                     </div>
                     por <a href="#">Ps.Cristian Retamales</a>
                   </div>

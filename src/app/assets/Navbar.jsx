@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div className="container">
         <a className="text-primary" href="/">
+        <img src="/assets/img/logo.png" alt="Logo" style={{ height: '75px', marginRight: '-10px' }} />
           Ps.
           <span className="text-primary"> Cristian Retamales</span>
         </a>
