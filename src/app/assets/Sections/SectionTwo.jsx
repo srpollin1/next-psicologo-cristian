@@ -10,7 +10,7 @@ const SectionTwo = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 py-3 wow fadeInUp">
             <h1 className="title-section">
-              Somos la generación que va a terapia
+            Porque ir al Psicólogo no te hace loco
             </h1>
             <div className="divider" />
             <p>
