@@ -16,20 +16,8 @@ const Footer = () => {
           <div className="col-lg-4 py-3">
             <h3>Ps.Cristian Retamales</h3>
             <div className="social-media-button">
-              <a href="#">
-                <span className="mai-logo-facebook-f" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-twitter" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-google-plus-g" />
-              </a>
-              <a href="#">
+              <a href="https://www.instagram.com/ps.cristian.retamales?igsh=YzFlbm9pNng2MDI1">
                 <span className="mai-logo-instagram" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-youtube" />
               </a>
             </div>
           </div>
