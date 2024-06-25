@@ -32,7 +32,7 @@ const SectionFour = () => {
                 </h5>
                 <div className="post-date">
                   Publicado el{' '}
-                  <a href="/blog/saludMental">
+                  <a href="/blog/salud-mental">
                     25 de Junio 2024
                   </a>
                 </div>
@@ -51,14 +51,14 @@ const SectionFour = () => {
               </div>
               <div className="body">
                 <h5 className="post-title">
-                  <a href="#">
+                  <a href="/blog/depresion">
                     Depresión
                   </a>
                 </h5>
                 <div className="post-date">
-                  Posted on{' '}
-                  <a href="#">
-                    27 Jan 2020
+                  Publicado el{' '}
+                  <a href="/blog/salud-mental">
+                    25 de Junio 2024
                   </a>
                 </div>
               </div>
