@@ -57,6 +57,7 @@ const Footer = () => {
             <a className="footer-link" href={`https://wa.me/${numeroCelular}`}>
               {`+${numeroCelular}`}
             </a>
+            <br />
             <a className="footer-link" href="#">
               pscristianretamales@gmail.com
             </a>
