@@ -56,7 +56,7 @@ export default function Blog() {
             ))}
           </div>
 
-          <nav aria-label="Page Navigation">
+          {/* <nav aria-label="Page Navigation">
             <ul className="pagination justify-content-center">
               <li className="page-item disabled">
                 <a className="page-link" href="#" aria-disabled="true">Antes</a>
@@ -70,7 +70,7 @@ export default function Blog() {
                 <a className="page-link" href="#">Siguiente</a>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </div>
       </div>
       <Footer2 />
@@ -98,31 +98,6 @@ const posts = [
   },
   {
     image: "../assets/img/blog/blog-4.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020"
-  },
-  {
-    image: "../assets/img/blog/blog-5.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020"
-  },
-  {
-    image: "../assets/img/blog/blog-6.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020"
-  },
-  {
-    image: "../assets/img/blog/blog-1.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020"
-  },
-  {
-    image: "../assets/img/blog/blog-2.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020"
-  },
-  {
-    image: "../assets/img/blog/blog-3.jpg",
     title: "Source of Content Inspiration",
     date: "27 Jan 2020"
   }
