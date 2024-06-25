@@ -1,8 +1,27 @@
-// src/components/Navbar.js
-import React from 'react';
+// src/components/BannerOne.js
+import React, { useEffect } from 'react';
+import 'animate.css';
 
 const BannerOne = () => {
   const numeroCelular = "56949586234";
+
+  useEffect(() => {
+    const words = document.getElementsByClassName("toggle");
+    let wordCounter = 0;
+
+    const updateWord = () => {
+      if (wordCounter >= words.length) wordCounter = 0;
+      for (let i = 0; i < words.length; i++) {
+        words[i].classList.remove('active', 'animate__animated', 'animate__fadeInUp');
+      }
+      words[wordCounter].classList.add('active', 'animate__animated', 'animate__fadeInUp');
+      wordCounter++;
+    };
+
+    const intervalId = setInterval(updateWord, 3000);
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
 
   return (
     <div className="container">

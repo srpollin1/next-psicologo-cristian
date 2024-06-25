@@ -35,6 +35,7 @@ export default function RootLayout({ children }) {
           {children}
           <div className="back-to-top"/>
         </div>
+        
         <script type="module" src="/src/main.jsx"></script>
         <script src="/assets/js/jquery-3.5.1.min.js"></script>
         <script src="/assets/js/bootstrap.bundle.min.js"></script>
