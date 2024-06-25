@@ -91,12 +91,12 @@ const SectionFour = () => {
             </div>
           </div>
           <div className="col-12 mt-4 text-center wow fadeInUp">
-            <Link
+            <a
               className="btn btn-primary"
-              to="/blog"
+              href="/blog"
             >
               Ver más
-            </Link>
+            </a>
           </div>
         </div>
       </div>
