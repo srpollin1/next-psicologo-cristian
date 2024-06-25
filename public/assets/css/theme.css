@@ -27,9 +27,16 @@
   #anuncio-1 img {
     display: none;
   }
+
+  #card-service {
+    width: 50%;
+  }
+  
 }
 
-
+#como-ayudar{
+  font-size: 5.3rem;
+}
 
 #anuncio-1 {
   display: block;

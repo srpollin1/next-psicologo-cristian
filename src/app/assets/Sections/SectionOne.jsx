@@ -6,10 +6,8 @@ const SectionOne = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <h1
-              style={{
-                fontSize: '5.3rem'
-              }}
+            <h1 id='como-ayudar'
+             
             >
               <span
                 style={{
@@ -38,7 +36,7 @@ const SectionOne = () => {
           <div className="col-md-7">
             <div className="d-flex flex-wrap">
               <div className="col-md-4">
-                <div className="card-service wow fadeInUp">
+                <div className="card-service wow fadeInUp" id='card-service'>
                   <div
                     className="header"
                     style={{
@@ -70,7 +68,7 @@ const SectionOne = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card-service wow fadeInUp">
+                <div className="card-service wow fadeInUp" id='card-service'>
                   <div
                     className="header"
                     style={{
@@ -102,7 +100,7 @@ const SectionOne = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card-service wow fadeInUp">
+                <div className="card-service wow fadeInUp" id='card-service'>
                   <div
                     className="header"
                     style={{
