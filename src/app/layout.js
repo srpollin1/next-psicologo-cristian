@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <meta charSet="UTF-8" />
-        <link rel="icon" type="image/svg+xml" />
+        <link rel="icon" type="image/svg+xml" href=''/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{metadata.title}</title>
         <link rel="stylesheet" href="/assets/css/maicons.css" />
