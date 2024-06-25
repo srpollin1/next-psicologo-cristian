@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../assets/Navbar";
-import Footer from "../assets/Footer";
+import Navbar2 from "../assets/Navbar2";
+import Footer2 from "../assets/Footer2";
 
 export default function Blog() {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <div className="page-section">
         <div className="container">
           <nav aria-label="Breadcrumb">
@@ -73,7 +73,7 @@ export default function Blog() {
           </nav>
         </div>
       </div>
-      <Footer />
+      <Footer2 />
     </>
   );
 }
