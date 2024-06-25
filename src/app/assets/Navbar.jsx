@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom";
 import React from 'react';
 
 const Navbar = () => {
+  const numeroCelular = "56949586234";
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div className="container">
@@ -36,8 +37,9 @@ const Navbar = () => {
                 Blog
               </a>
             </li>
+            {/* <a className="btn btn-primary ml-lg-2" href="https://wa.me/"></a> */}
             <li className="nav-item">
-              <a className="btn btn-primary ml-lg-2" href="https://wa.me/56981296528">
+              <a className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
                 Contactame
               </a>
             </li>

@@ -2,6 +2,8 @@
 import React from 'react';
 
 const Footer = () => {
+  const numeroCelular = "56949586234";
+
   return (
     <footer
       className="page-footer bg-image"
@@ -44,14 +46,16 @@ const Footer = () => {
                 <a href="#nuestro-blog"> Blog</a>
               </li>
               <li className="nav-item">
-                <a href="https://wa.me/56981296528">Contactame</a>
+                <a href={`https://wa.me/${numeroCelular}`}>
+                  Contactame
+                </a>
               </li>
             </ul>
           </div>
           <div className="col-lg-4 py-3">
             <h5>Contactanos</h5>
-            <a className="footer-link" href="#">
-              +569 8129 6528
+            <a className="footer-link" href={`https://wa.me/${numeroCelular}`}>
+              {`+${numeroCelular}`}
             </a>
             <a className="footer-link" href="#">
               pscristianretamales@gmail.com
@@ -60,7 +64,7 @@ const Footer = () => {
         </div>
         <p className="text-center" id="copyright">
           Copyright © 2024.
-          <a href="https://wa.me/56981296528" target="_blank">
+          <a href={`https://wa.me/${numeroCelular}`} target="_blank">
             {' '}
             Ps.Cristian Retamales
           </a>
