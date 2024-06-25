@@ -48,8 +48,8 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="body">
-                    <h5 className="post-title"><a href="/blog/saludMental">{post.title}</a></h5>
-                    <div className="post-date">Posted on <a href="/blog/saludMental">{post.date}</a></div>
+                    <h5 className="post-title"><a href={post.href}>{post.title}</a></h5>
+                    <div className="post-date">Posted on <a href={post.href}>{post.date}</a></div>
                   </div>
                 </div>
               </div>
@@ -83,11 +83,13 @@ const posts = [
     image: "https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg",
     title: "Salud Mental",
     date: "27 Jan 2020",
+    href: "/blog/salud-mental"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/04/07/04/17/desperate-5011953_1280.jpg",
     title: "Depresión",
-    date: "27 Jan 2020"
+    date: "27 Jan 2020",
+    href:"/blog/depresion"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg",
