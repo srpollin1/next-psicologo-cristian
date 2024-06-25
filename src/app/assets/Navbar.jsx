@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div className="container">
-        <a className="text-primary" href="#">
+        <a className="text-primary" href="http://localhost:3000/">
           Ps.
           <span className="text-primary"> Cristian Retamales</span>
         </a>

@@ -27,14 +27,14 @@ const SectionFour = () => {
               </div>
               <div className="body">
                 <h5 className="post-title">
-                  <a href="#">
+                  <a href="http://localhost:3000/blog/saludMental">
                     Salud Mental
                   </a>
                 </h5>
                 <div className="post-date">
-                  Posted on{' '}
-                  <a href="#">
-                    27 Jan 2020
+                  Publicado el{' '}
+                  <a href="http://localhost:3000/blog/saludMental">
+                    25 de Junio 2024
                   </a>
                 </div>
               </div>
