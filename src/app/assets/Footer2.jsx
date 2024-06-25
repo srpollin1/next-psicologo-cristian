@@ -7,9 +7,6 @@ const Footer = () => {
   return (
     <footer
       className="page-footer bg-image"
-      style={{
-        backgroundImage: 'url(../assets/img/world_pattern.svg)',
-      }}
     >
       <div className="container">
         <div className="row mb-8">
