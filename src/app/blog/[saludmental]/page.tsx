@@ -11,8 +11,8 @@ export default function Page() {
                 <div className="container">
                     <nav aria-label="Breadcrumb">
                         <ul className="breadcrumb p-0 mb-0 bg-transparent">
-                            <li className="breadcrumb-item"><a href="http://localhost:3000/">Home</a></li>
-                            <li className="breadcrumb-item"><a href="http://localhost:3000/blog/">Blog</a></li>
+                            <li className="breadcrumb-item"><a href="/">Home</a></li>
+                            <li className="breadcrumb-item"><a href="/blog/">Blog</a></li>
                             <li className="breadcrumb-item active">Salud Mental</li>
                         </ul>
                     </nav>

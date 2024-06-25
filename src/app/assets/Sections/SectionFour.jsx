@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, BrowserRouter as Router, Routes } from "react-router-dom";
 
 const SectionFour = () => {
   return (
@@ -27,13 +26,13 @@ const SectionFour = () => {
               </div>
               <div className="body">
                 <h5 className="post-title">
-                  <a href="http://localhost:3000/blog/saludMental">
+                  <a href="/blog/saludMental">
                     Salud Mental
                   </a>
                 </h5>
                 <div className="post-date">
                   Publicado el{' '}
-                  <a href="http://localhost:3000/blog/saludMental">
+                  <a href="/blog/saludMental">
                     25 de Junio 2024
                   </a>
                 </div>
