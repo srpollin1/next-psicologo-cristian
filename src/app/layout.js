@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div id="root">
           {children}
+          <div className="back-to-top"/>
         </div>
         <script type="module" src="/src/main.jsx"></script>
         <script src="/assets/js/jquery-3.5.1.min.js"></script>
