@@ -41,8 +41,8 @@ export default function Blog() {
                     </div>
                   </div>
                   <div className="body">
-                    <h5 className="post-title"><a href="http://localhost:3000/blog/saludMental">{post.title}</a></h5>
-                    <div className="post-date">Posted on <a href="http://localhost:3000/blog/saludMental">{post.date}</a></div>
+                    <h5 className="post-title"><a href="/blog/saludMental">{post.title}</a></h5>
+                    <div className="post-date">Posted on <a href="/blog/saludMental">{post.date}</a></div>
                   </div>
                 </div>
               </div>
