@@ -29,7 +29,7 @@ const BannerOne = () => {
         <div
           className="row align-items-center flex-wrap h-100"
           style={{
-            backgroundColor: '#fefaf5'
+            backgroundColor: '#EAF4F4'
           }}
         >
           <div className="col-md-6 py-5">
