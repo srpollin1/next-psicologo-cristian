@@ -65,7 +65,7 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="row my-5">
+          <div className="row my-5" id="blogs">
             {filteredPosts.map((post, index) => (
               <div className="col-lg-4 py-3" key={index}>
                 <div className="card-blog">
