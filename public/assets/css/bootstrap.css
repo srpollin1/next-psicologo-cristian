@@ -632,7 +632,7 @@ pre code {
   position: relative;
   /* width: 100%;
   padding-right: 15px; */
-  padding-left: 5px;
+  padding-left: 12px;
 }
 
 .col {
@@ -676,8 +676,8 @@ pre code {
 
 .row-cols-6 > * {
   -ms-flex: 0 0 16.666667%;
-  flex: 0 0 16.666667%;
-  max-width: 16.666667%;
+  flex: 0 0 16.666667%  padding-left: 5px;
+7%;
 }
 
 .col-auto {
