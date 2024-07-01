@@ -13,10 +13,10 @@ const SectionTwo = () => {
             Porque ir al psicoterapia no te hace "loco"
             </h1>
             <div className="divider" />
-            <p>
+            <p className='podre-ayudarte'>
               Contáctame ahora y podré ayudarte.
             </p>
-            <a className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
+            <a className="btn btn-primary ml-lg-2" id='contactame-sillon' href={`https://wa.me/${numeroCelular}`}>
                 Contáctame
               </a>
           </div>
