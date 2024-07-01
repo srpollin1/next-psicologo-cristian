@@ -13,7 +13,7 @@ const SectionFour = () => {
           </h2>
           <div className="divider mx-auto" />
         </div>
-        <div className="row mt-5">
+        <div className="row mt-5" id='blogs'>
           <div className="col-lg-4 py-3 wow fadeInUp">
             <div className="card-blog">
               <div className="header">
