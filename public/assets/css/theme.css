@@ -32,6 +32,15 @@
     width: 50%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  #como-ayudar{
+    text-align: center;
+  }
+
+  #texto-como-ayudar{
+    text-align: center;
+    margin: 20px;
+  }
   
 }
 

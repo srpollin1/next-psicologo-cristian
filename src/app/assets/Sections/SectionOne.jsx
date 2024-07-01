@@ -24,13 +24,13 @@ const SectionOne = () => {
             </h1>
             <br />
             <br />
-            <p>
+            <p id='texto-como-ayudar'>
               Todos atravesamos momentos difíciles, desde{' '}
-              <br />
+              
               inseguridades personales hasta problemas en nuestras{' '}
-              <br />
+              
               relaciones. Te invitamos a que empieces a transformar tu{' '}
-              <br />
+              
               vida en terapia con un psicólogo online o cerca de tu zona.
             </p>
           </div>
