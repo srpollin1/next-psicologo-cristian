@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-4 py-3">
-            <h5>Menu</h5>
+            <h5>Menú</h5>
             <ul className="footer-menu">
               <li>
               <a className="nav-item" href="/">
