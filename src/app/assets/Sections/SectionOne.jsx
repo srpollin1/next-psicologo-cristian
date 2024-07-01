@@ -95,7 +95,7 @@ const SectionOne = () => {
                         fontSize: '1.10rem'
                       }}
                     >
-                      Relaciones Personales
+                      Relaciones <br /> Personales
                     </h5>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ const SectionOne = () => {
                         fontSize: '1.10rem'
                       }}
                     >
-                      Autoestima e Inseguridad
+                      Autoestima e <br /> Inseguridad
                     </h5>
                   </div>
                 </div>

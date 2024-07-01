@@ -1603,7 +1603,7 @@ a.text-dark:focus {
 .card-service {
   display: block;
   margin: 16px auto;
-  padding: 32px 20px;
+  padding: 32px 10px;
   max-width: 750px;
   text-align: center;
   color: #898798;
