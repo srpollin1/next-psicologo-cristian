@@ -79,38 +79,6 @@ const SectionOne = () => {
                   >
                     <img
                       alt=""
-                      src="https://doodleipsum.com/160x263/abstract?i=80ac55adfd99147758c3dc6a9771fc40"
-                      style={{
-                        position: 'relative',
-                        right: '20px',
-                        top: '-32px',
-                        width: '160px'
-                      }}
-                    />
-                  </div>
-                  <div className="body">
-                    <h5
-                      className="text-secondary"
-                      style={{
-                        fontSize: '1.10rem'
-                      }}
-                    >
-                      Relaciones <br /> Personales
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card-service wow fadeInUp" >
-                  <div
-                    className="header"
-                    style={{
-                      marginBottom: '-80px',
-                      textAlign: 'left'
-                    }}
-                  >
-                    <img
-                      alt=""
                       src="https://doodleipsum.com/160x263/flat?i=9891b8f98924e0af9a27ebea31114e9a"
                       style={{
                         position: 'relative',
@@ -132,6 +100,39 @@ const SectionOne = () => {
                   </div>
                 </div>
               </div>
+              <div className="col-md-4">
+                <div className="card-service wow fadeInUp" >
+                  <div
+                    className="header"
+                    style={{
+                      marginBottom: '-80px',
+                      textAlign: 'left'
+                    }}
+                  >
+                    <img
+                      alt=""
+                      src="https://doodleipsum.com/160x263/abstract?i=80ac55adfd99147758c3dc6a9771fc40"
+                      style={{
+                        position: 'relative',
+                        right: '20px',
+                        top: '-32px',
+                        width: '160px'
+                      }}
+                    />
+                  </div>
+                  <div className="body">
+                    <h5
+                      className="text-secondary"
+                      style={{
+                        fontSize: '1.10rem'
+                      }}
+                    >
+                      Relaciones <br /> Personales
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              
               <div className="col-md-4">
                 <div className="card-service wow fadeInUp">
                   <div
