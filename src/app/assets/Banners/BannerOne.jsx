@@ -70,8 +70,7 @@ const BannerOne = () => {
                 {' '}que alguien me escuche
               </span>
             </h1>
-
-            <a className="btn btn-primary btn-split" href={`https://wa.me/${numeroCelular}`}>
+            <a id='contactame-bannerone' className="btn btn-primary btn-split" href={`https://wa.me/${numeroCelular}`}>
             Contáctame
             {/* <FaWhatsapp /> */}
               {/* <div className="fab">
