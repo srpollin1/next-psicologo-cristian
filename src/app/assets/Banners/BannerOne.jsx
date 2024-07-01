@@ -59,7 +59,7 @@ const BannerOne = () => {
                   color: '#A4C3B2'
                 }}
               >
-                {' '}ayuda
+                {' '}que alguien me guíe
               </span>
               <span
                 className="toggle"
