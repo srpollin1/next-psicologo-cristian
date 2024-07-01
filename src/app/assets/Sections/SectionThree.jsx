@@ -7,7 +7,7 @@ const SectionThree = () => {
         <div className="header" style={{ marginBottom: '-110px', textAlign: 'left' }}>
           <img
             alt=""
-            src="https://doodleipsum.com/334x250?i=71b58d528ae31771a2ea8150fc47b7e9"
+            src="/assets/img/all-image/Precios.png"
             style={{
               left: '235px',
               position: 'relative',

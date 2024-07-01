@@ -31,7 +31,7 @@ const BannerOne = () => {
         <div
           className="row align-items-center flex-wrap h-100"
           style={{
-            backgroundColor: '#EAF4F4'
+            backgroundColor: 'white'
           }}
         >
           <div className="col-md-6 py-5">
@@ -83,7 +83,7 @@ const BannerOne = () => {
             <div className="img-fluid text-center">
               <img
                 alt=""
-                src="https://doodleipsum.com/700/outline?i=efb2399e32de73e7933220b64879154a"
+                src="/assets/img/all-image/BannerOne.png"
                 style={{
                   width: '100%'
                 }}
