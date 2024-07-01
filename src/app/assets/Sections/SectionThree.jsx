@@ -18,9 +18,9 @@ const SectionThree = () => {
         </div>
         <div className="body" style={{ position: 'absolute', textAlign: 'left', top: '17px' }}>
           <h2>
-            Elige la terapia que te{' '}
+            Elige la modalidad que{' '}
             <br />
-            sea más cómoda
+            más te convenga
           </h2>
           <div style={{ display: 'flex' }}>
             <div className="col-lg-6">
@@ -43,7 +43,7 @@ const SectionThree = () => {
                 ONLINE
               </div>
               <h2>
-                $31.000
+                $15.000
               </h2>
             </div>
             <div className="col-lg-6">
@@ -66,7 +66,7 @@ const SectionThree = () => {
                 PRESENCIAL
               </div>
               <h2>
-                $36.000
+                $22.000
               </h2>
             </div>
           </div>

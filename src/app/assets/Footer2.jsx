@@ -44,13 +44,16 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-4 py-3">
-            <h5>Contactanos</h5>
+            <h5>Contáctame</h5>
             <a className="footer-link" href={`https://wa.me/${numeroCelular}`}>
               {`+${numeroCelular}`}
             </a>
             <br />
             <a className="footer-link" href="#">
-              pscristianretamales@gmail.com
+            ps.cristian.retamales@gmail.com
+            </a>
+            <a className="footer-link" href="https://maps.app.goo.gl/kQGgqqBxfk8ozx9s8">
+            Augusto Leguía Sur 79, Las Condes
             </a>
           </div>
         </div>

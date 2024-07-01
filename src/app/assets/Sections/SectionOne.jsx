@@ -18,7 +18,7 @@ const SectionOne = () => {
               </span>
               {' '}
               <br />
-              {' '}te podemos{' '}
+              {' '}te puedo{' '}
               <br />
               {' '}ayudar?
             </h1>

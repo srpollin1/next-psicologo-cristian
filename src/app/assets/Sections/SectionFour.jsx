@@ -6,7 +6,7 @@ const SectionFour = () => {
       <div className="container">
         <div className="text-center wow fadeInUp">
           <div className="subhead" id="nuestro-blog">
-            Nuestro Blog
+            Mi Blog
           </div>
           <h2 className="title-section">
             Lee lo último
@@ -81,9 +81,9 @@ const SectionFour = () => {
                   </a>
                 </h5>
                 <div className="post-date">
-                  Posted on{' '}
+                Publicado el{' '}
                   <a href="#">
-                    27 Jan 2020
+                  25 de Junio 2024
                   </a>
                 </div>
               </div>
