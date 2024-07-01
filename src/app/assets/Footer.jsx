@@ -23,7 +23,7 @@ const Footer = () => {
             <ul className="footer-menu">
               <li>
               <a className="nav-item btn-scroll" data-role="smoothscroll" href="#section-one">
-                ¿Cómo funciona?
+              Quiero ayuda
               </a>
               </li>
               <li className="nav-item">

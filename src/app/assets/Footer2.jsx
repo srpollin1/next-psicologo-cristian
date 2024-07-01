@@ -23,7 +23,7 @@ const Footer = () => {
             <ul className="footer-menu">
               <li>
               <a className="nav-item" href="/">
-                ¿Cómo funciona?
+              Quiero ayuda
               </a>
               </li>
               <li className="nav-item">

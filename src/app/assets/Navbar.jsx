@@ -25,7 +25,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link btn-scroll" data-role="smoothscroll" href="#section-one">
-                ¿Cómo funciona?
+                Quiero ayuda
               </a>
             </li>
             <li className="nav-item">
