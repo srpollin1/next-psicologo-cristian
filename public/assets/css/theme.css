@@ -30,6 +30,7 @@
 
   #card-service {
     width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   
 }
