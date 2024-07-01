@@ -41,7 +41,7 @@ const Navbar = () => {
             {/* <a className="btn btn-primary ml-lg-2" href="https://wa.me/"></a> */}
             <li className="nav-item">
               <a className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
-                Contactame
+                Contáctame
               </a>
             </li>
           </ul>

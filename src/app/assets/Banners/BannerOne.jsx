@@ -1,6 +1,8 @@
 // src/components/BannerOne.js
 import React, { useEffect } from 'react';
+import { FaWhatsapp } from "react-icons/fa";
 import 'animate.css';
+
 
 const BannerOne = () => {
   const numeroCelular = "56949586234";
@@ -70,10 +72,11 @@ const BannerOne = () => {
             </h1>
 
             <a className="btn btn-primary btn-split" href={`https://wa.me/${numeroCelular}`}>
-              Contactame
-              <div className="fab">
+            Contáctame
+            {/* <FaWhatsapp /> */}
+              {/* <div className="fab">
                 <span className="mai-play" />
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="col-md-6 py-5 wow zoomIn">

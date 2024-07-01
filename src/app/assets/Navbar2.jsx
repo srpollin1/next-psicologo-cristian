@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div className="container">
         <a className="text-primary" href="/">
-        <img src="/assets/img/logo.png" alt="Logo" style={{ height: '75px', marginRight: '-10px' }} />
+          <img src="/assets/img/logo.png" alt="Logo" style={{ height: '75px', marginRight: '-10px' }} />
           Ps.
           <span className="text-primary"> Cristian Retamales</span>
         </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link btn-scroll"  href="/">
+              <a className="nav-link btn-scroll" href="/">
                 Precios
               </a>
             </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
             {/* <a className="btn btn-primary ml-lg-2" href="https://wa.me/"></a> */}
             <li className="nav-item">
               <a className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
-                Contactame
+                Contáctame
               </a>
             </li>
           </ul>

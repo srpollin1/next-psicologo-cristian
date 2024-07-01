@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <a href={`https://wa.me/${numeroCelular}`}>
-                  Contactame
+                  Contáctame
                 </a>
               </li>
             </ul>
