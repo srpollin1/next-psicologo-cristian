@@ -36,7 +36,7 @@
 }
 
 #como-ayudar{
-  font-size: 5.3rem;
+  font-size: 3.3rem;
 }
 
 #anuncio-1 {
@@ -49,6 +49,7 @@
 .card-service {
   display: block;
   margin: auto;
+  background-color: white;
 }
 
 .card-service img {

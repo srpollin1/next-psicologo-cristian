@@ -23,6 +23,7 @@ const SectionOne = () => {
               {' '}ayudar?
             </h1>
             <br />
+            <br />
             <p>
               Todos atravesamos momentos difíciles, desde{' '}
               <br />
@@ -59,7 +60,7 @@ const SectionOne = () => {
                     <h5
                       className="text-secondary"
                       style={{
-                        fontSize: '1.25rem'
+                        fontSize: '1.10rem'
                       }}
                     >
                       Ánimo
@@ -91,7 +92,7 @@ const SectionOne = () => {
                     <h5
                       className="text-secondary"
                       style={{
-                        fontSize: '1.25rem'
+                        fontSize: '1.10rem'
                       }}
                     >
                       Relaciones Personales
@@ -123,7 +124,7 @@ const SectionOne = () => {
                     <h5
                       className="text-secondary"
                       style={{
-                        fontSize: '1.25rem'
+                        fontSize: '1.10rem'
                       }}
                     >
                       Miedos
@@ -155,7 +156,7 @@ const SectionOne = () => {
                     <h5
                       className="text-secondary"
                       style={{
-                        fontSize: '1.25rem'
+                        fontSize: '1.10rem'
                       }}
                     >
                       Autoestima e Inseguridad
