@@ -27,7 +27,7 @@ const SectionFour = () => {
               <div className="body">
                 <h5 className="post-title">
                   <a href="/blog/salud-mental">
-                    Salud Mental
+                  La Importancia de la Salud Mental
                   </a>
                 </h5>
                 <div className="post-date">
@@ -45,20 +45,20 @@ const SectionFour = () => {
                 <div className="post-thumb">
                   <img
                     alt=""
-                    src="https://cdn.pixabay.com/photo/2020/04/07/04/17/desperate-5011953_1280.jpg"
+                    src="https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg"
                   />
                 </div>
               </div>
               <div className="body">
                 <h5 className="post-title">
                   <a href="/blog/depresion">
-                    Depresión
+                  Entendiendo la Depresión
                   </a>
                 </h5>
                 <div className="post-date">
                   Publicado el{' '}
                   <a href="/blog/depresion">
-                    25 de Junio 2024
+                  01 de Julio, 2024.
                   </a>
                 </div>
               </div>
@@ -76,13 +76,13 @@ const SectionFour = () => {
               </div>
               <div className="body">
                 <h5 className="post-title">
-                  <a href="#">
-                    Relaciones Personales
+                  <a href="/blog/relaciones-interpersonales">
+                  La Importancia de las Relaciones Interpersonales
                   </a>
                 </h5>
                 <div className="post-date">
                 Publicado el{' '}
-                  <a href="#">
+                  <a href="/blog/relaciones-interpersonales">
                   25 de Junio 2024
                   </a>
                 </div>

@@ -76,7 +76,7 @@ export default function Blog() {
                   </div>
                   <div className="body">
                     <h5 className="post-title"><a href={post.href}>{post.title}</a></h5>
-                    <div className="post-date">Posted on <a href={post.href}>{post.date}</a></div>
+                    <div className="post-date">Publicado el <a href={post.href}>{post.date}</a></div>
                   </div>
                 </div>
               </div>
@@ -92,24 +92,24 @@ export default function Blog() {
 const posts = [
   {
     image: "https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg",
-    title: "Salud Mental",
+    title: "La Importancia de la Salud Mental",
     date: "27 Jan 2020",
     href: "/blog/salud-mental",
-    category: "salud-mental"
+    category: "La Importancia de la Salud Mental"
   },
   {
-    image: "https://cdn.pixabay.com/photo/2020/04/07/04/17/desperate-5011953_1280.jpg",
-    title: "Depresión",
+    image: "https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg",
+    title: "Entendiendo la Depresión",
     date: "27 Jan 2020",
     href:"/blog/depresion",
-    category: "depresion"
+    category: "Entendiendo la Depresión"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg",
-    title: "Relaciones Personales",
+    title: "La Importancia de las Relaciones Interpersonales",
     date: "27 Jan 2020",
-    href:"/blog/relaciones-personales",
-    category: "autoestima"
+    href:"/blog/relaciones-interpersonales",
+    category: "La Importancia de las Relaciones Interpersonales"
   },
   {
     image: "../assets/img/blog/blog-4.jpg",
