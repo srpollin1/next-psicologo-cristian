@@ -13,7 +13,7 @@ export default function Page() {
                         <ul className="breadcrumb p-0 mb-0 bg-transparent">
                             <li className="breadcrumb-item"><a href="/">Home</a></li>
                             <li className="breadcrumb-item"><a href="/blog/">Blog</a></li>
-                            <li className="breadcrumb-item active">Depresión</li>
+                            <li className="breadcrumb-item active">Entendiendo la Depresión</li>
                         </ul>
                     </nav>
                     <div className="row">
