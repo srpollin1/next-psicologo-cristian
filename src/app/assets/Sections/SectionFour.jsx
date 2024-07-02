@@ -33,7 +33,7 @@ const SectionFour = () => {
                 <div className="post-date">
                   Publicado el{' '}
                   <a href="/blog/salud-mental">
-                    25 de Junio 2024
+                  01 de Julio, 2024
                   </a>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const SectionFour = () => {
                 <div className="post-date">
                   Publicado el{' '}
                   <a href="/blog/depresion">
-                  01 de Julio, 2024.
+                  01 de Julio, 2024
                   </a>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const SectionFour = () => {
                 <div className="post-date">
                 Publicado el{' '}
                   <a href="/blog/relaciones-interpersonales">
-                  25 de Junio 2024
+                  01 de Julio, 2024
                   </a>
                 </div>
               </div>

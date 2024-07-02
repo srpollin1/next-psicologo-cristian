@@ -93,29 +93,22 @@ const posts = [
   {
     image: "https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg",
     title: "La Importancia de la Salud Mental",
-    date: "27 Jan 2020",
+    date: " 01 de Julio, 2024",
     href: "/blog/salud-mental",
     category: "La Importancia de la Salud Mental"
   },
   {
     image: "https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg",
     title: "Entendiendo la Depresión",
-    date: "27 Jan 2020",
+    date: " 01 de Julio, 2024",
     href:"/blog/depresion",
     category: "Entendiendo la Depresión"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg",
     title: "La Importancia de las Relaciones Interpersonales",
-    date: "27 Jan 2020",
+    date: " 01 de Julio, 2024",
     href:"/blog/relaciones-interpersonales",
     category: "La Importancia de las Relaciones Interpersonales"
-  },
-  {
-    image: "../assets/img/blog/blog-4.jpg",
-    title: "Source of Content Inspiration",
-    date: "27 Jan 2020",
-    href:"/blog/source-of-content-inspiration",
-    category: "autoestima"
   }
 ];
