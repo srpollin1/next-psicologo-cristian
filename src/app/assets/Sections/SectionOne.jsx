@@ -47,11 +47,11 @@ const SectionOne = () => {
                   >
                     <img
                       alt=""
-                      src="https://doodleipsum.com/160x263/flat?i=2bd3af0d2f06a2fa52032589873857fd"
+                      src="/assets/img/all-image/SectionOne/Animo.png"
                       style={{
                         position: 'relative',
                         right: '20px',
-                        top: '-32px',
+                        top: '-60px',
                         width: '160px'
                       }}
                     />
@@ -79,7 +79,7 @@ const SectionOne = () => {
                   >
                     <img
                       alt=""
-                      src="https://doodleipsum.com/160x263/flat?i=9891b8f98924e0af9a27ebea31114e9a"
+                      src="/assets/img/all-image/SectionOne/Miedos.png"
                       style={{
                         position: 'relative',
                         right: '20px',
@@ -111,7 +111,7 @@ const SectionOne = () => {
                   >
                     <img
                       alt=""
-                      src="https://doodleipsum.com/160x263/abstract?i=80ac55adfd99147758c3dc6a9771fc40"
+                      src="/assets/img/all-image/SectionOne/Relaciones interpersonales.png"
                       style={{
                         position: 'relative',
                         right: '20px',
@@ -132,7 +132,6 @@ const SectionOne = () => {
                   </div>
                 </div>
               </div>
-              
               <div className="col-md-4">
                 <div className="card-service wow fadeInUp">
                   <div
@@ -144,7 +143,7 @@ const SectionOne = () => {
                   >
                     <img
                       alt=""
-                      src="https://doodleipsum.com/160x263/outline?i=5ab2f67c138d27ecd527e23a908cab67"
+                      src="/assets/img/all-image/SectionOne/Autoestima.png"
                       style={{
                         position: 'relative',
                         right: '20px',
