@@ -110,10 +110,9 @@ export default function Page() {
                                     <div className="divider"></div>
                                     <ul className="categories">
                                         <li><a href="#">Salud Mental</a></li>
-                                        <li><a href="#">Ansiedad</a></li>
                                         <li><a href="#">Entendiendo la Depresión</a></li>
-                                        <li><a href="#">Autestima</a></li>
-                                        <li><a href="#">Crisis de pánico</a></li>
+                                        <li><a href="#">Relaciones Interpersonales</a></li>
+                                        
                                     </ul>
                                 </div>
                                 {/* Widget recent post */}
@@ -125,11 +124,11 @@ export default function Page() {
                                             <img src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg" alt="" />
                                         </a>
                                         <div className="content">
-                                            <h6 className="post-title"><a href="#">Salud Mental</a></h6>
+                                            <h6 className="post-title"><a href="#">La Importancia de la Salud Mental</a></h6>
                                             <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span> July 12, 2018</a>
-                                                <a href="#"><span className="mai-person"></span> Admin</a>
-                                                <a href="#"><span className="mai-chatbubbles"></span> 19</a>
+                                                <a href="#"><span className="mai-calendar"></span>01 de Julio, 2024</a>
+                                                {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
+                                                {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +139,7 @@ export default function Page() {
                                         <div className="content">
                                             <h6 className="post-title"><a href="#">Entendiendo la Depresión</a></h6>
                                             <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span> 01 de Julio, 2024.</a>
+                                                <a href="#"><span className="mai-calendar"></span> 01 de Julio, 2024</a>
                                                 {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
                                                 {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
                                             </div>
@@ -151,11 +150,11 @@ export default function Page() {
                                             <img src="https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg" alt="" />
                                         </a>
                                         <div className="content">
-                                            <h6 className="post-title"><a href="#">Relaciones Personales</a></h6>
+                                            <h6 className="post-title"><a href="#">Relaciones Interpersonales</a></h6>
                                             <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span> July 12, 2018</a>
-                                                <a href="#"><span className="mai-person"></span> Admin</a>
-                                                <a href="#"><span className="mai-chatbubbles"></span> 19</a>
+                                                <a href="#"><span className="mai-calendar"></span> 01 de Julio, 2024</a>
+                                                {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
+                                                {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
                                             </div>
                                         </div>
                                     </div>
