@@ -49,7 +49,7 @@ const Footer = () => {
               {`+${numeroCelular}`}
             </a>
             <br />
-            <a className="footer-link" href="#">
+            <a className="footer-link" href="mailto:ps.cristian.retamales@gmail.com">
               ps.cristian.retamales@gmail.com
             </a>
             <a className="footer-link" href="https://maps.app.goo.gl/kQGgqqBxfk8ozx9s8">
