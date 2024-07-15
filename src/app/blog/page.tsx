@@ -81,9 +81,20 @@ export default function Blog() {
                 </div>
               </div>
             ))}
+
           </div>
+          {/* <nav aria-label="Page navigation example">
+            <ul className="pagination justify-content-center">
+              <li className="page-item"><a className="page-link" href="#">Previous</a></li>
+              <li className="page-item"><a className="page-link" href="#">1</a></li>
+              <li className="page-item"><a className="page-link" href="#">2</a></li>
+              <li className="page-item"><a className="page-link" href="#">3</a></li>
+              <li className="page-item"><a className="page-link" href="#">Next</a></li>
+            </ul>
+          </nav> */}
         </div>
       </div>
+
       <Footer2 />
     </>
   );
@@ -101,14 +112,14 @@ const posts = [
     image: "https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg",
     title: "Entendiendo la Depresión",
     date: " 01 de Julio, 2024",
-    href:"/blog/depresion",
+    href: "/blog/depresion",
     category: "Entendiendo la Depresión"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg",
     title: "La Importancia de las Relaciones Interpersonales",
     date: " 01 de Julio, 2024",
-    href:"/blog/relaciones-interpersonales",
+    href: "/blog/relaciones-interpersonales",
     category: "La Importancia de las Relaciones Interpersonales"
   }
 ];
