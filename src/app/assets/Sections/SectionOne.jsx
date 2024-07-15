@@ -18,12 +18,13 @@ const SectionOne = () => {
               </span>
               {' '}
               <br />
-              {' '}te puedo{' '}
+              {' '}puedo{' '}
               <br />
-              {' '}ayudar?
+              {' '}ayudarte?
             </h1>
             <br />
             <br />
+            
             <p id='texto-como-ayudar'>
               Todos atravesamos momentos difíciles, desde{' '}
               
@@ -31,7 +32,9 @@ const SectionOne = () => {
               
               relaciones. Te invitamos a que empieces a transformar tu{' '}
               
-              vida en terapia con un psicólogo online o cerca de tu zona.
+              vida en terapia ya sea online o de manera presencial.{' '}
+
+              Puedo ayudarte con temas como el ánimo, los miedos, las relaciones interpersonales, la autoestima y la inseguridad.
             </p>
           </div>
           <div className="col-md-7">
