@@ -28,7 +28,7 @@ const SectionThree = () => {
                 style={{
                   alignItems: 'center',
                   backgroundColor: '#6B9080',
-                  borderRadius: '20px',
+                  borderRadius: '0.25rem',
                   color: 'var(--white)',
                   display: 'flex',
                   fontSize: '0.750rem',
@@ -51,7 +51,7 @@ const SectionThree = () => {
                 style={{
                   alignItems: 'center',
                   backgroundColor: '#6B9080',
-                  borderRadius: '20px',
+                  borderRadius: '0.25rem',
                   color: 'var(--white)',
                   display: 'flex',
                   fontSize: '0.750rem',

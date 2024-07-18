@@ -51,7 +51,7 @@ const BannerOne = () => {
                   color: '#A4C3B2'
                 }}
               >
-                {' '}sentirme bien
+                {' '}sentirme bien conmigo
               </span>
               <span
                 className="toggle"
@@ -59,7 +59,7 @@ const BannerOne = () => {
                   color: '#A4C3B2'
                 }}
               >
-                {' '}que alguien me guíe
+                {' '}que alguien me <br />guíe
               </span>
               <span
                 className="toggle"
@@ -70,7 +70,7 @@ const BannerOne = () => {
                 {' '}que alguien me escuche
               </span>
             </h1>
-            <a id='contactame-bannerone' className="btn btn-primary btn-split" href={`https://wa.me/${numeroCelular}`}>
+            <a id='contactame-bannerone' className="btn btn-primary ml-lg-2" href={`https://wa.me/${numeroCelular}`}>
             Contáctame
             {/* <FaWhatsapp /> */}
               {/* <div className="fab">
