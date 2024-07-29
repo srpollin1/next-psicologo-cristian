@@ -24,12 +24,30 @@
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
+
+  
   #anuncio-1 img {
     display: none;
   }
 
+  #anuncio-1{
+    display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center;     /* Centra verticalmente el contenido */
+  text-align: center;  
+  }
+
+
+  .card-service{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
   #card-service {
-    width: 50%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
@@ -75,15 +93,11 @@
   font-size: 3.3rem;
 }
 
-#anuncio-1 {
-  display: block;
-  margin: auto;
-}
+
 
 /* tarjetas */
 
 .card-service {
-  display: block;
   margin: auto;
   background-color: white;
 }
@@ -1599,7 +1613,7 @@ a.text-dark:focus {
 }
 
 .title-section {
-  color: #645F88;
+  color: #898798;
 }
 
 .divider {
@@ -1637,7 +1651,6 @@ a.text-dark:focus {
 
 
 .card-service {
-  display: block;
   margin: 16px auto;
   padding: 32px 10px;
   max-width: 750px;
@@ -1866,7 +1879,7 @@ a.text-dark:focus {
 }
 
 .card-blog .post-title a {
-  color: #645F88;
+  color: #898798;
   transition: color .2s ease;
 }
 
