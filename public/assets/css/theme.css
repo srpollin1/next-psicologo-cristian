@@ -525,7 +525,7 @@ a.text-dark:focus {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #5d47eb;
+  background-color: #6B9080;
   border-color: transparent;
 }
 
@@ -533,8 +533,8 @@ a.text-dark:focus {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #6C55F9;
-  border-color: #5d47eb;
+  background-color: #6B9080;
+  border-color: #6B9080;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -782,7 +782,7 @@ a.text-dark:focus {
 .btn-danger:hover,
 .btn-dark:hover {
   color: #fff;
-  background-color: #645F88;
+  background-color: #767676;
   border-color: transparent;
 }
 
@@ -809,8 +809,8 @@ a.text-dark:focus {
 }
 
 .btn-outline-primary {
-  color: #6C55F9;
-  border-color: #6C55F9;
+  color: #6B9080;
+  border-color: #6B9080;
 }
 
 .btn-outline-primary:hover {
