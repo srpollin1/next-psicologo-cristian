@@ -87,42 +87,42 @@ function BlogContent() {
       <div className="page-section">
         <div className="container">
           <nav aria-label="Breadcrumb">
-            <ul className="breadcrumb p-0 mb-0 bg-transparent">
+            <ul className="breadcrumb p-0 mb-0 bg-transparent justify-content-center">
               <li className="breadcrumb-item"><a href="/">Home</a></li>
               <li className="breadcrumb-item active">Blog</li>
             </ul>
           </nav>
           <br />
-          <div className="row">
-            <div className="col-sm-10">
-              <form action="#" className="form-search-blog" onSubmit={(e) => { e.preventDefault(); handleFilter(); }}>
-                <div className="input-group">
-                  <div className="input-group-prepend">
-                    <select id="categories" className="custom-select bg-light" value={category} onChange={(e) => setCategory(e.target.value)}>
-                      <option value="">Categorías</option>
-                      <option value="salud-mental">Salud Mental</option>
-                      <option value="ansiedad">Ansiedad</option>
-                      <option value="depresion">Depresión</option>
-                      <option value="autoestima">Autoestima</option>
-                      <option value="crisis-de-panico">Crisis de pánico</option>
-                    </select>
-                  </div>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Ingresa una palabra.."
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                  />
-                </div>
+          <div className="row justify-content-center">
+            <div className="col-md-10">
+              <form className="d-flex" onSubmit={(e) => { e.preventDefault(); handleFilter(); }}>
+                <select id="categories" className="form-select me-2" aria-label="Categorías" value={category} onChange={(e) => setCategory(e.target.value)}>
+                  <option value="">Categorías</option>
+                  <option value="salud-mental">Salud Mental</option>
+                  <option value="ansiedad">Ansiedad</option>
+                  <option value="depresion">Depresión</option>
+                  <option value="autoestima">Autoestima</option>
+                  <option value="crisis-de-panico">Crisis de pánico</option>
+                </select>
+                <input
+                  type="text"
+                  className="form-control me-2"
+                  placeholder="Ingresa una palabra..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                />
+                {/* <button type="submit" className="btn btn-primary">
+                  Buscar
+                </button> */}
               </form>
             </div>
-            <div className="col-sm-2 text-sm-right">
-              <button className="btn btn-secondary" onClick={handleFilter}>
+            {/* <div className="col-md-2 d-flex align-items-center justify-content-end">
+              <button className="btn btn-secondary">
                 Filtro <span className="mai-filter"></span>
               </button>
-            </div>
+            </div> */}
           </div>
+
 
           <div className="row my-5" id="blogs">
             {filteredPosts.map((post, index) => (
