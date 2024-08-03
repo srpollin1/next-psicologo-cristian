@@ -1,6 +1,8 @@
+// src/app/blog/page.js
+
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from 'next/navigation';
 import Navbar2 from "../assets/Navbar2";
 import Footer2 from "../assets/Footer2";
@@ -51,8 +53,7 @@ const posts = [
   }
 ];
 
-export default function Blog() {
-  const router = useRouter();
+function BlogContent() {
   const searchParams = useSearchParams();
   const [category, setCategory] = useState(searchParams.get('category') || "");
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || "");
@@ -83,7 +84,6 @@ export default function Blog() {
 
   return (
     <>
-      <Navbar2 />
       <div className="page-section">
         <div className="container">
           <nav aria-label="Breadcrumb">
@@ -150,7 +150,16 @@ export default function Blog() {
           />
         </div>
       </div>
-      <Footer2 />
     </>
+  );
+}
+
+export default function Blog() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Navbar2 />
+      <BlogContent />
+      <Footer2 />
+    </Suspense>
   );
 }
