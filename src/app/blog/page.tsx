@@ -38,11 +38,11 @@ const posts = [
     category: "ansiedad"
   },
   {
-    image: "https://cdn.pixabay.com/photo/2017/01/18/17/14/heart-1991760_1280.jpg",
-    title: "Autoestima y su Impacto",
-    date: " 03 de Julio, 2024",
-    href: "/blog/autoestima",
-    category: "autoestima"
+    image: "https://cdn.pixabay.com/photo/2019/04/10/20/09/woman-4118058_1280.jpg",
+    title: "Comprendiendo el Estrés",
+    date: " 16 de Agosto, 2024",
+    href: "/blog/comprendiendo-el-estres",
+    category: "salud-mental"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/09/22/21/44/panic-5590688_1280.jpg",
