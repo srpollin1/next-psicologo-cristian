@@ -31,10 +31,10 @@ const posts = [
     category: "relaciones-interpersonales"
   },
   {
-    image: "https://cdn.pixabay.com/photo/2015/11/19/21/14/therapy-1050627_1280.jpg",
-    title: "Cómo Manejar la Ansiedad",
-    date: " 02 de Julio, 2024",
-    href: "/blog/ansiedad",
+    image: "https://cdn.pixabay.com/photo/2018/12/08/22/42/mirror-3864155_1280.jpg",
+    title: "Comprendiendo la Ansiedad",
+    date: " 16 de Agosto, 2024",
+    href: "/blog/comprendiendo-la-ansiedad",
     category: "ansiedad"
   },
   {
@@ -111,18 +111,9 @@ function BlogContent() {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                {/* <button type="submit" className="btn btn-primary">
-                  Buscar
-                </button> */}
               </form>
             </div>
-            {/* <div className="col-md-2 d-flex align-items-center justify-content-end">
-              <button className="btn btn-secondary">
-                Filtro <span className="mai-filter"></span>
-              </button>
-            </div> */}
           </div>
-
 
           <div className="row my-5" id="blogs">
             {filteredPosts.map((post, index) => (
@@ -130,7 +121,9 @@ function BlogContent() {
                 <div className="card-blog">
                   <div className="header">
                     <div className="post-thumb">
-                      <img src={post.image} alt="" />
+                      <a href={post.href}>
+                        <img src={post.image} alt={post.title} />
+                      </a>
                     </div>
                   </div>
                   <div className="body">
@@ -153,6 +146,7 @@ function BlogContent() {
     </>
   );
 }
+
 
 export default function Blog() {
   return (
