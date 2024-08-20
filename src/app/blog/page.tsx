@@ -3,53 +3,45 @@
 "use client";
 
 import React, { useState, useEffect, Suspense } from "react";
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import Navbar2 from "../assets/Navbar2";
 import Footer2 from "../assets/Footer2";
-import PaginationControls from '../components/PaginationControls';
 
 const posts = [
   {
     image: "https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg",
     title: "La Importancia de la Salud Mental",
-    date: " 01 de Julio, 2024",
+    date: "01 de Julio, 2024",
     href: "/blog/salud-mental",
     category: "salud-mental"
   },
   {
     image: "https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg",
     title: "Entendiendo la Depresión",
-    date: " 01 de Julio, 2024",
+    date: "01 de Julio, 2024",
     href: "/blog/depresion",
     category: "depresion"
   },
   {
     image: "https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg",
     title: "La Importancia de las Relaciones Interpersonales",
-    date: " 01 de Julio, 2024",
+    date: "01 de Julio, 2024",
     href: "/blog/relaciones-interpersonales",
     category: "relaciones-interpersonales"
   },
   {
     image: "https://cdn.pixabay.com/photo/2018/12/08/22/42/mirror-3864155_1280.jpg",
     title: "Comprendiendo la Ansiedad",
-    date: " 16 de Agosto, 2024",
+    date: "16 de Agosto, 2024",
     href: "/blog/comprendiendo-la-ansiedad",
     category: "ansiedad"
   },
   {
     image: "https://cdn.pixabay.com/photo/2019/04/10/20/09/woman-4118058_1280.jpg",
     title: "Comprendiendo el Estrés",
-    date: " 16 de Agosto, 2024",
+    date: "16 de Agosto, 2024",
     href: "/blog/comprendiendo-el-estres",
     category: "salud-mental"
-  },
-  {
-    image: "https://cdn.pixabay.com/photo/2020/09/22/21/44/panic-5590688_1280.jpg",
-    title: "Enfrentando una Crisis de Pánico",
-    date: " 04 de Julio, 2024",
-    href: "/blog/crisis-de-panico",
-    category: "crisis-de-panico"
   }
 ];
 
@@ -59,15 +51,9 @@ function BlogContent() {
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || "");
   const [filteredPosts, setFilteredPosts] = useState([]);
 
-  const page = searchParams.get('page') ?? '1';
-  const per_page = 3; // Mostrar 3 posts por página
-
-  const start = (Number(page) - 1) * Number(per_page); // 0, 3, 6 ...
-  const end = start + Number(per_page); // 3, 6, 9 ...
-
   useEffect(() => {
     handleFilter();
-  }, [category, searchTerm, page, per_page]);
+  }, [category, searchTerm]);
 
   const handleFilter = () => {
     let filtered = posts;
@@ -79,7 +65,7 @@ function BlogContent() {
         post.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
-    setFilteredPosts(filtered.slice(start, end));
+    setFilteredPosts(filtered);
   };
 
   return (
@@ -134,19 +120,11 @@ function BlogContent() {
               </div>
             ))}
           </div>
-          <PaginationControls
-            hasNextPage={end < posts.length}
-            hasPrevPage={start > 0}
-            totalPosts={posts.length}
-            currentPage={Number(page)}
-            postsPerPage={Number(per_page)}
-          />
         </div>
       </div>
     </>
   );
 }
-
 
 export default function Blog() {
   return (
