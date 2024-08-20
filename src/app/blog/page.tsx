@@ -37,7 +37,7 @@ const posts = [
     category: "ansiedad"
   },
   {
-    image: "https://cdn.pixabay.com/photo/2019/04/10/20/09/woman-4118058_1280.jpg",
+    image: "https://cdn.pixabay.com/photo/2023/08/27/17/23/ai-generated-8217603_1280.jpg",
     title: "Comprendiendo el Estrés",
     date: "16 de Agosto, 2024",
     href: "/blog/comprendiendo-el-estres",

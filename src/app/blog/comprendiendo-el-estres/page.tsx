@@ -21,14 +21,14 @@ export default function Page() {
                             <div className="blog-single-wrap">
                                 <div className="header">
                                     <div className="post-thumb">
-                                        <img src="https://cdn.pixabay.com/photo/2019/04/10/20/09/woman-4118058_1280.jpg" alt="" />
+                                        <img src="https://cdn.pixabay.com/photo/2023/08/27/17/23/ai-generated-8217603_1280.jpg" alt="" />
                                     </div>
                                     <div className="meta-header">
                                         <div className="post-author">
                                             <div className="avatar">
                                                 <img src="/assets/img/logo.png" alt="" />
                                             </div>
-                                            por <a href="#">Ps.Cristian Retamales</a>
+                                            por <a href="/">Ps.Cristian Retamales</a>
                                         </div>
                                     </div>
                                 </div>
