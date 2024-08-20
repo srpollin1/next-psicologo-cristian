@@ -44,7 +44,7 @@ const SectionOne = () => {
                   <div
                     className="header"
                     style={{
-                      marginBottom: '-80px',
+                      marginBottom: '-60px',
                       textAlign: 'left'
                     }}
                   >
@@ -76,7 +76,7 @@ const SectionOne = () => {
                   <div
                     className="header"
                     style={{
-                      marginBottom: '-80px',
+                      marginBottom: '-60px',
                       textAlign: 'left'
                     }}
                   >
