@@ -1921,6 +1921,22 @@ a.text-dark:focus {
 }
 
 
+ .social-media {
+  display: flex;
+  gap: 10px; /* Ajusta el espacio entre los iconos según sea necesario */
+  justify-content: center; /* Centra los iconos horizontalmente */
+}
+
+.social-icon {
+  font-size: 24px; /* Ajusta el tamaño de los iconos según sea necesario */
+  color: #6B9080; /* Cambia el color de los iconos si es necesario */
+  transition: color 0.3s ease; /* Agrega un efecto de transición para cambios de color */
+}
+
+.social-icon:hover {
+  color: #fff; /* Cambia el color de los iconos al pasar el cursor por encima */
+}
+
 @media (max-width: 768px) {
   .row.mb-8 {
     flex-direction: column;
