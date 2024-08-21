@@ -1,5 +1,6 @@
 // src/components/Footer.js
 import React from 'react';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   const numeroCelular = "56949586234";
@@ -11,10 +12,13 @@ const Footer = () => {
       <div className="container">
         <div className="row mb-8">
           <div className="col-lg-4 py-3">
-            <h3>Ps.Cristian Retamales</h3>
-            <div className="social-media-button">
-              <a href="https://www.instagram.com/ps.cristian.retamales?igsh=YzFlbm9pNng2MDI1">
-                <span className="mai-logo-instagram" />
+          <h3 className='text-center'>Ps.Cristian Retamales</h3>
+            <div className="social-media">
+              <a href="https://www.instagram.com/ps.cristian.retamales?igsh=YzFlbm9pNng2MDI1" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="social-icon" />
+              </a>
+              <a href="https://www.tiktok.com/@ps.cristian.retamales" target="_blank" rel="noopener noreferrer">
+                <FaTiktok className="social-icon" />
               </a>
             </div>
           </div>
