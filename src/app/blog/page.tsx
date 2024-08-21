@@ -42,6 +42,13 @@ const posts = [
     date: "16 de Agosto, 2024",
     href: "/blog/comprendiendo-el-estres",
     category: "salud-mental"
+  },
+  {
+    image: "https://cdn.pixabay.com/photo/2018/06/02/18/22/fitness-3448864_1280.jpg",
+    title: "Terapia Presencial vs Terapia Online",
+    date: "21 de Agosto, 2024",
+    href: "/blog/terapia-online-vs-terapia-presencial",
+    category: "salud-mental"
   }
 ];
 
