@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar2 from "../../assets/Navbar2";
 import Footer2 from "../../assets/Footer2";
+import CategoriasBlog from "../components/CategoriasBlog";
+import PostRecientes from "../components/PostRecientes";
 
 export default function Page() {
     return (
@@ -78,52 +80,8 @@ export default function Page() {
                         </div>
                         <div className="col-lg-4">
                             <div className="widget">
-                                <div className="widget-box">
-                                    <h4 className="widget-title">Categorías</h4>
-                                    <div className="divider"></div>
-                                    <ul className="categories">
-                                        <li><a href="#">Salud Mental</a></li>
-                                        <li><a href="#">Terapia Presencial</a></li>
-                                        <li><a href="#">Terapia Online</a></li>
-                                    </ul>
-                                </div>
-                                <div className="widget-box">
-                                    <h4 className="widget-title">Post Recientes</h4>
-                                    <div className="divider"></div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="#">
-                                            <img src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">La Importancia de la Salud Mental</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span>01 de Julio, 2024</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="#">
-                                            <img src="https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">Entendiendo la Depresión</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span>01 de Julio, 2024</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="#">
-                                            <img src="https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">Relaciones Interpersonales</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span>01 de Julio, 2024</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <CategoriasBlog />
+                                <PostRecientes />
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar2 from "../../assets/Navbar2";
 import Footer2 from "../../assets/Footer2";
+import CategoriasBlog from "../components/CategoriasBlog";
+import PostRecientes from "../components/PostRecientes";
 
 export default function Page() {
     return (
@@ -95,7 +97,6 @@ export default function Page() {
                                         <li><strong>Cambios en el Estilo de Vida:</strong> El ejercicio regular, una dieta equilibrada y un sueño adecuado pueden tener un impacto positivo en el estado de ánimo.</li>
                                         <li><strong>Apoyo Social:</strong> Hablar con amigos, familiares o grupos de apoyo puede proporcionar un sentido de conexión y alivio emocional.</li>
                                     </ul>
-
                                     <h2>Conclusión</h2>
                                     <p>La depresión es una condición seria pero tratable. Si tú o alguien que conoces está experimentando síntomas de depresión, es importante buscar ayuda profesional. Con el tratamiento adecuado, las personas con depresión pueden recuperar su bienestar y calidad de vida.</p>
                                     <p>Para más información y recursos sobre salud mental, no dudes en visitar mis redes sociales o consultar otros artículos del blog.</p>
@@ -105,60 +106,9 @@ export default function Page() {
                         <div className="col-lg-4">
                             <div className="widget">
                                 {/* Widget Categories */}
-                                <div className="widget-box">
-                                    <h4 className="widget-title">Categorías</h4>
-                                    <div className="divider"></div>
-                                    <ul className="categories">
-                                        <li><a href="#">Salud Mental</a></li>
-                                        <li><a href="#">Entendiendo la Depresión</a></li>
-                                        <li><a href="#">Relaciones Interpersonales</a></li>
-                                        
-                                    </ul>
-                                </div>
+                                <CategoriasBlog />
                                 {/* Widget recent post */}
-                                <div className="widget-box">
-                                    <h4 className="widget-title">Post Recientes</h4>
-                                    <div className="divider"></div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="">
-                                            <img src="https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">La Importancia de la Salud Mental</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span>01 de Julio, 2024</a>
-                                                {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
-                                                {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="">
-                                            <img src="https://cdn.pixabay.com/photo/2017/11/02/20/24/depression-2912404_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">Entendiendo la Depresión</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span> 01 de Julio, 2024</a>
-                                                {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
-                                                {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="blog-item">
-                                        <a className="post-thumb" href="">
-                                            <img src="https://cdn.pixabay.com/photo/2020/06/08/16/19/woman-5275027_1280.jpg" alt="" />
-                                        </a>
-                                        <div className="content">
-                                            <h6 className="post-title"><a href="#">Relaciones Interpersonales</a></h6>
-                                            <div className="meta">
-                                                <a href="#"><span className="mai-calendar"></span> 01 de Julio, 2024</a>
-                                                {/* <a href="#"><span className="mai-person"></span> Admin</a> */}
-                                                {/* <a href="#"><span className="mai-chatbubbles"></span> 19</a> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <PostRecientes />
                             </div>
                         </div>
                     </div>
