@@ -49,6 +49,13 @@ const posts = [
     date: "21 de Agosto, 2024",
     href: "/blog/terapia-online-vs-terapia-presencial",
     category: "salud-mental"
+  },
+  {
+    image: "https://cdn.pixabay.com/photo/2017/08/21/19/00/woman-2666433_1280.jpg",
+    title: "Comprendiendo la Dependencia Emocional",
+    date: "21 de Agosto, 2024",
+    href: "/blog/comprendiendo-la-dependencia-emocional",
+    category: "emociones"
   }
 ];
 
