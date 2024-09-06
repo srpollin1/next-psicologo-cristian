@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Psicologo Cristian Retamales',
-  description: 'salud mental, depresión, autestima',
+  title: 'Psicólogo Cristian Retamales',
+  description: 'psicólogo santiago, psicólogo providencia, psicólogo las condes, psicólogo cristian retamales',
 };
 
 export default function RootLayout({ children }) {
