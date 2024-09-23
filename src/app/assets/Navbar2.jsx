@@ -4,7 +4,8 @@ const Navbar = () => {
   const numeroCelular = "56949586234";
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+    <nav style={{boxShadow: '0 2px 6px rgba(100, 95, 136, 0.15)' 
+    }}  className="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div className="container">
         <a className="text-primary" href="/">
           <img src="/assets/img/logo.png" alt="Logo" style={{ height: '75px', marginRight: '-10px' }} />
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link btn-scroll" href="/">
+              <a className="nav-link btn-scroll" href="/agenda-aqui">
               Quiero ayuda
               </a>
             </li>

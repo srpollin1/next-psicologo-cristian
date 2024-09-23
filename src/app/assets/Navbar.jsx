@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link btn-scroll" data-role="smoothscroll" href="#section-one">
+              <a className="nav-link btn-scroll" href="/agenda-aqui">
                 Quiero ayuda
               </a>
             </li>
