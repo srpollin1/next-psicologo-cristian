@@ -25,7 +25,7 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link btn-scroll" href="/agenda-aqui">
-                Quiero ayuda
+                Agenda Aquí
               </a>
             </li>
             <li className="nav-item">
